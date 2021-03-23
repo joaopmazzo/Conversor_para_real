@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 1 - Imersão dev alura</title>
+
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/Conversor_Moedas.JS"></script>
+</head>
+<body id="center">
+    <div class="container border ronded border-3 rounded">
+        <h1 class="page-title">
+            Conversor de Moedas
+        </h1>
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt="Imersao dev">
+        <p style="clear: both;"></p>
+        <p class="page-subtitle">
+            <p class=" page-subtitle">
+                Escolha o tipo de moeda:
+            </p>
+            <div class="dropdown">
+                    <select name="moeda" id="moeda" class="btn btn-outline-light dropdown-toggle">
+                        <option value="dolar">Dolar</option>
+                        <option value="euro">Euro</option>
+                    </select>
+            </div>
+        </p>
+
+        <input type="text" placeholder="Digite o valor" name="valorDigitado" id="valorDigitado" class="valorDigitado">
+        <input type="button" value="Converter" name="converter" onclick="calc()" class="btn shadow mb-5 bg-body rounded">
+
+    </div>
+
+    <a href="https://alura.com.br/" target="_blank">
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+    </a>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
